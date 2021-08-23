@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  height: inherit;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e0e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-container {
+  margin-bottom: 10px;
+  width: 450px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.order-container p {
+  color: #7280a7;
+}
+
+.order-container img {
+  width: inherit;
+  border-radius: 20px 20px 0 0;
+}
+
+.order-wrapper {
+  padding: 0 45px;
+}
+
+.order-wrapper .btn {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.order-wrapper .call2action {
+  background-color: #3829e0;
+  color: white;
+  -webkit-box-shadow: 0 6px 30px -6px rgba(56, 41, 224, 0.7);
+          box-shadow: 0 6px 30px -6px rgba(56, 41, 224, 0.7);
+}
+
+.order-wrapper .call2action:hover {
+  background-color: rgba(56, 41, 224, 0.7);
+}
+
+.order-wrapper .cancel {
+  color: #7280a7;
+  font-weight: bold;
+}
+
+.order-summary h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.order-item {
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.order-item img {
+  height: 48px;
+  width: 48px;
+  margin-right: 20px;
+}
+
+.order-item .order-item-info p:first-of-type {
+  font-weight: bold;
+  color: black;
+}
+
+.order-item .order-item-info p {
+  margin: 5px;
+}
+
+.order-item a {
+  margin-left: auto;
+}
+
+/* mobile */
+@media (max-width: 500px) {
+  html {
+    font-size: 11px;
+  }
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+  }
+  .order-container {
+    width: 300px;
+  }
+  .order-wrapper {
+    padding: 0 25px;
+  }
+  .order-item img {
+    margin-right: 10px;
+  }
+  .order-item-info {
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
