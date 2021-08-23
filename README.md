@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/slickLink/order_summary_component_main)
-- Live Site URL: [](https://order-component-solution.netlify.app/)
+- Solution URL: [Code Solution](https://github.com/slickLink/order_summary_component_main)
+- Live Site URL: [Solution site](https://order-component-solution.netlify.app/)
 
 ## My process
 
